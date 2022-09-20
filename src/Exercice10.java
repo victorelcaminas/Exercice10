@@ -7,14 +7,13 @@ public class Exercice10 {
         int x;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Introduce un numero:");
+        System.out.println("Enter a number:");
         x = input.nextInt();
 
-        if (x>=0) {
-            System.out.println("El numero es positivo");
-        }
-        else {
-            System.out.println("El numero es negativo");
+        if (x >= 0) {
+            System.out.println("Positive");
+        } else {
+            System.out.println("Negative");
         }
 
     }
