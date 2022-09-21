@@ -10,10 +10,9 @@ public class Exercice10 {
         System.out.println("Introduce un numero:");
         x = input.nextInt();
 
-        if (x>=0) {
+        if (x >= 0) {
             System.out.println("El numero es positivo");
-        }
-        else {
+        } else {
             System.out.println("El numero es negativo");
         }
 
