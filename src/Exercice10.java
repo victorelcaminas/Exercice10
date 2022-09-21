@@ -12,8 +12,7 @@ public class Exercice10 {
 
         if (x>=0) {
             System.out.println("El numero es positivo");
-        }
-        else {
+        } else {
             System.out.println("El numero es negativo");
         }
 
